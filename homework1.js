@@ -25,19 +25,15 @@ const generateLogin = () => {
 console.log(generateLogin());
 
 //task3
-const mixArray = arr => {
-  let mixedArr = arr.slice();
-  let i = mixedArr.length-1;
-  while (i != 0) {
-    let j = Math.floor(Math.random()* i );
-    let temp = mixedArr[i];
-    mixedArr[i] = mixedArr[j];
-    mixedArr[j] = temp;
-    i = i - 1;
+const mixArray = arr => { 
+  const mixedArr = arr.slice(); 
+  for(let i = mixedArr.length-1; i > 0;  i -= 1){
+       const newIndex= Math.floor(Math.random()* i ); 
+       [mixedArr[i], mixedArr[newIndex]] = [mixedArr[newIndex], mixedArr[i]];
   }
-  
-  return mixedArr;
-}
+     
+    return mixedArr; 
+  } 
 
 console.log(mixArray([5,34,56,89,43]));
 
