@@ -38,7 +38,7 @@ const convertValue = (value, from, to) => {
     case 'fc':
       return (value - 32) * 5 / 9;
     case 'kc':
-      return value - 273.15;          
+      return value - 273.15;         
     default:
       alert( "Нет таких значений" );
   }

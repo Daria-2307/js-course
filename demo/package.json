@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Tasks for demo",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Daria-2307/js-course.git"
+  },
+  "author": "Daria Frantsevych <sawitest02022021@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daria-2307/js-course/issues"
+  },
+  "homepage": "https://github.com/Daria-2307/js-course#readme"
+}
