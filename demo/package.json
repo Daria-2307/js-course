@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Daria-2307/js-course/issues"
   },
-  "homepage": "https://github.com/Daria-2307/js-course#readme"
+  "homepage": "https://github.com/Daria-2307/js-course#readme",
+  "devDependencies": {
+    "mocha": "^9.1.0"
+  }
 }
